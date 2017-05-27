@@ -1,0 +1,184 @@
+{
+    "timefree": [
+        {
+            "id": "010101",
+            "image": "./img/mockimgs/tf_1.png",
+            "title": "计算机科学",
+            "numbers": "142",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010102",
+            "image": "./img/mockimgs/tf_2.png",
+            "title": "Visual C++",
+            "numbers": "245",
+            "url": "./bookdetail.html",
+            "author": "李松锋"
+        },
+        {
+            "id": "010103",
+            "image": "./img/mockimgs/tf_3.png",
+            "title": "电脑维修",
+            "numbers": "721",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010104",
+            "image": "./img/mockimgs/tf_4.png",
+            "title": "JavaScript",
+            "numbers": "247",
+            "url": "./bookdetail.html",
+            "author": "李松锋"
+        },
+        {
+            "id": "010105",
+            "image": "./img/mockimgs/tf_5.png",
+            "title": "微软电子商务",
+            "numbers": "492",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010106",
+            "image": "./img/mockimgs/tf_6.png",
+            "title": "Microsoft SQL Server",
+            "numbers": "607",
+            "url": "./bookdetail.html",
+            "author": "弗龙科维克"
+        },
+        {
+            "id": "010107",
+            "image": "./img/mockimgs/tf_1.png",
+            "title": "中文版Microsoft windows 2000 Professional",
+            "numbers": "225",
+            "url": "./bookdetail.html",
+            "author": "ActiveEducation"
+        },
+        {
+            "id": "010108",
+            "image": "./img/mockimgs/tf_2.png",
+            "title": "中文版Microsoft Office 2000专家手册",
+            "numbers": "707",
+            "url": "./bookdetail.html",
+            "author": "Reed Jacobson"
+        }
+    ],
+    "hot": [
+        {
+            "id": "010201",
+            "image": "./img/mockimgs/hot_1.png",
+            "title": "计算机科学",
+            "numbers": "142",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010202",
+            "image": "./img/mockimgs/hot_2.png",
+            "title": "Visual C++",
+            "numbers": "245",
+            "url": "./bookdetail.html",
+            "author": "李松锋"
+        },
+        {
+            "id": "010203",
+            "image": "./img/mockimgs/hot_3.png",
+            "title": "电脑维修",
+            "numbers": "721",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010204",
+            "image": "./img/mockimgs/hot_4.png",
+            "title": "JavaScript",
+            "numbers": "247",
+            "url": "./bookdetail.html",
+            "author": "李松锋"
+        },
+        {
+            "id": "010205",
+            "image": "./img/mockimgs/hot_5.png",
+            "title": "微软电子商务",
+            "numbers": "492",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010206",
+            "image": "./img/mockimgs/hot_6.png",
+            "title": "Microsoft SQL Server",
+            "numbers": "607",
+            "url": "./bookdetail.html",
+            "author": "弗龙科维克"
+        },
+        {
+            "id": "010207",
+            "image": "./img/mockimgs/hot_7.png",
+            "title": "中文版Microsoft windows 2000 Professional",
+            "numbers": "225",
+            "url": "./bookdetail.html",
+            "author": "ActiveEducation"
+        },
+        {
+            "id": "010208",
+            "image": "./img/mockimgs/hot_8.png",
+            "title": "中文版Microsoft Office 2000专家手册",
+            "numbers": "707",
+            "url": "./bookdetail.html",
+            "author": "Reed Jacobson"
+        }
+    ],
+    "recommend": [
+        {
+            "id": "010301",
+            "image": "./img/mockimgs/rc_1.png",
+            "title": "计算机科学",
+            "numbers": "142",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010302",
+            "image": "./img/mockimgs/rc_2.png",
+            "title": "Visual C++",
+            "numbers": "245",
+            "url": "./bookdetail.html",
+            "author": "李松锋"
+        },
+        {
+            "id": "010303",
+            "image": "./img/mockimgs/rc_3.png",
+            "title": "电脑维修",
+            "numbers": "721",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010304",
+            "image": "./img/mockimgs/rc_4.png",
+            "title": "JavaScript",
+            "numbers": "247",
+            "url": "./bookdetail.html",
+            "author": "李松锋"
+        },
+        {
+            "id": "010305",
+            "image": "./img/mockimgs/rc_5.png",
+            "title": "微软电子商务",
+            "numbers": "492",
+            "url": "./bookdetail.html",
+            "author": "于今昌"
+        },
+        {
+            "id": "010306",
+            "image": "./img/mockimgs/rc_6.png",
+            "title": "Microsoft SQL Server",
+            "numbers": "607",
+            "url": "./bookdetail.html",
+            "author": "弗龙科维克"
+        }
+    ]
+}

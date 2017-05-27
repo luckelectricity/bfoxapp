@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta charset="UTF-8">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+			<title>借书</title>
+		 <script src="js/public.js"></script>
+	   <link rel="stylesheet" type="text/css"  href="css/common.css">
+	   <link rel="stylesheet" type="text/css"  href="font/iconfont.css">
+	   <link rel="stylesheet" type="text/css" href="css/all.css"/>
+	</head>
+	<body>
+		<div class="container lbcontainer">
+			<header>
+				<p>借书</p>
+			</header>
+			<section>
+				<div class="qrbtn" node-type="jsbridge">
+					扫描二维码
+					<input node-type="jsbridge" type="file" name="myPhoto" value="扫描二维码" />
+				</div>
+			</section>
+			<footer>
+				<ul>
+					<li data-url="./index.html"><i class="iconfont icon-book"></i>图书馆</li>
+					<li class="fontb"  data-url="./lendbook.html"><i class="iconfont icon-shoutidai"></i>借书</li>
+					<li  data-url="./reserve.html"><i class="iconfont icon-order"></i>预定</li>
+					<li data-url="./retbook.html"><i class="iconfont icon-icon25"></i>还书</li>
+					<li  data-url="./mycen.html"><i class="iconfont icon-geren"></i>我的</li>
+				</ul>
+			</footer>
+		</div>
+	<script src="js/zepto.min.js" charset="utf-8"></script>
+	<script src="js/iscroll-probe.js" charset="utf-8"></script>
+	<script src="js/qrcode.js" charset="utf-8"></script>
+	<script src="js/common.js" charset="utf-8"></script>
+	<script>
+	//初始化扫描二维码按钮，传入自定义的 node-type 属性
+		$(function() {
+			Qrcode.init($('[node-type=jsbridge]'));
+		});
+	</script>
+	</body>
+</html>

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/*到时候动态计算*/
+html {
+  font-size: 36px; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .container header {
+    position: relative;
+    height: 1.44444rem;
+    background: #4a90e2;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .container header h1 {
+      font-size: 0.47222rem;
+      color: #fff;
+      padding-top: 0.48611rem; }
+    .container header div {
+      position: absolute;
+      left: 0.27778rem;
+      top: 0.43056rem;
+      font-size: 0.58333rem;
+      color: #fff; }
+  .container .main {
+    flex: 1;
+    overflow: auto; }
+    .container .main div.content {
+      height: 2.5rem;
+      background: #4a90e2;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 0.27778rem; }
+      .container .main div.content img {
+        width: 1.88889rem; }
+      .container .main div.content div.right-content {
+        padding-left: 0.27778rem;
+        color: #fff; }
+        .container .main div.content div.right-content h2 {
+          font-size: 0.38889rem; }
+        .container .main div.content div.right-content p {
+          padding-top: 0.3rem;
+          font-size: 0.33333rem;
+          line-height: 0.5rem; }
+        .container .main div.content div.right-content p:nth-of-type(2) {
+          font-size: 0.30556rem;
+          padding-top: 0.1rem; }
+          .container .main div.content div.right-content p:nth-of-type(2) span:nth-child(2) {
+            padding-left: 0.27778rem; }
+    .container .main ul.nav {
+      height: 1.02778rem;
+      background: #f5f5f5;
+      display: flex;
+      text-align: center;
+      line-height: 1.02778rem;
+      font-size: 0.19444rem; }
+      .container .main ul.nav li {
+        flex: 1; }
+      .container .main ul.nav .active {
+        border-bottom: 4px solid #4a90e2;
+        color: #4a90e2; }
+    .container .main ul.review {
+      line-height: 0.5rem;
+      color: #666;
+      font-size: 0.16667rem;
+      background: #fff;
+      overflow: hidden; }
+      .container .main ul.review li {
+        text-indent: 2em;
+        padding: 0.44444rem 0.27778rem; }
+      .container .main ul.review li:nth-child(2) {
+        display: none;
+        line-height: 0.41667rem; }
+        .container .main ul.review li:nth-child(2) dl dt {
+          padding-bottom: 0.55556rem; }
+        .container .main ul.review li:nth-child(2) dl + dl {
+          padding: 0.55556rem 0; }
+      .container .main ul.review li:nth-child(3) {
+        display: none;
+        padding: 0;
+        text-indent: 0;
+        line-height: 0.52778rem; }
+        .container .main ul.review li:nth-child(3) dl {
+          display: flex;
+          height: 2.55556rem;
+          padding: 0.27778rem;
+          padding-bottom: 0;
+          border: 0.02778rem solid #f3f3f3; }
+          .container .main ul.review li:nth-child(3) dl dt img {
+            width: 0.77778rem; }
+          .container .main ul.review li:nth-child(3) dl dd {
+            padding-left: 0.27778rem; }
+            .container .main ul.review li:nth-child(3) dl dd div {
+              display: flex;
+              justify-content: space-between; }
+              .container .main ul.review li:nth-child(3) dl dd div span:nth-child(2) {
+                display: flex; }
+                .container .main ul.review li:nth-child(3) dl dd div span:nth-child(2) img {
+                  height: 0.30556rem; }
+            .container .main ul.review li:nth-child(3) dl dd p {
+              padding-top: 0.5rem; }
+        .container .main ul.review li:nth-child(3) div.more {
+          height: 0.97222rem;
+          line-height: 0.97222rem;
+          text-align: center; }
+  .container .foot {
+    height: 1.11111rem;
+    background: #4a90e2;
+    font-size: 0.22222rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.11111rem;
+    outline: none; }
+
+/*# sourceMappingURL=index.css.map */
