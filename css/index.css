@@ -59,7 +59,7 @@ html {
       display: flex;
       text-align: center;
       line-height: 1.02778rem;
-      font-size: 0.19444rem; }
+      font-size: 0.388rem; }
       .container .main ul.nav li {
         flex: 1; }
       .container .main ul.nav .active {
@@ -68,7 +68,7 @@ html {
     .container .main ul.review {
       line-height: 0.5rem;
       color: #666;
-      font-size: 0.16667rem;
+      font-size: 0.33rem;
       background: #fff;
       overflow: hidden; }
       .container .main ul.review li {
@@ -112,7 +112,7 @@ html {
   .container .foot {
     height: 1.11111rem;
     background: #4a90e2;
-    font-size: 0.22222rem;
+    font-size: 0.44rem;
     color: #fff;
     text-align: center;
     line-height: 1.11111rem;
